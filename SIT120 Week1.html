@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Week 1 Tasks</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <style>
+        table, th, td {background-color:blueviolet;
+          border:1px solid black;
+        }
+        p1 {color: white;}
+        .column { color: white;
+                  float: left;
+                  width: 33.33%;
+                }
+    </style>
+</head>
+<body>
+        <h1 style="background-color:DodgerBlue;text-align:center;color:white;"> <b>Week 1 Tasks</b></h1>
+        <p1 style="font-size:130%;background-color:DodgerBlue;"> This is my first HTML page and will include CSS and JavaScript elements.</p1>
+       <br>
+       <br>
+        <table>
+            <tr>
+                <td>Task 1</td>
+                <td>Task 2</td>
+                <td>Task 3</td>
+                <td>Task 4</td>
+                <td>Task 5</td>
+            </tr>
+            <tr>
+                <td>Pass</td>
+                <td>Pass</td>
+                <td>Pass</td>
+                <td>Pass</td>
+                <td>Credit</td>
+
+            </tr>
+
+
+        </table>
+        
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Click for Date and Time</button>
+        <p id="demo"></p>
+        
+        <p id="demon">"Hello Motto"</p>
+        <button type="button" onclick="myFunction()">Click for hidden message!!!</button>
+            <script>
+                function myFunction() { 
+                    document.getElementById("demon").innerHTML = "Brought to you by JavaScript!";
+                }
+            </script>
+
+       <br>
+        <img src="rock_pool.jpg" alt="Rock Pools" style="width:300px;height:300px;"> 
+        <br>
+        <a href="https://www.w3schools.com/html/html_links.asp" style="font-size:110%;"> HTML Link Syntax at W3Schools</a>
+        <br>
+        
+        <div class="column">
+            <h2>Task 1 HTML</h2>
+            <p>My first HTML page. A basic layout with several maint HTML tags. </p>
+          </div>
+         <div class="column">
+            <h2>Task 2 CSS</h2>
+            <p>Improving the visual aspect of the HTML page with CSS inline, internal, and external styles.</p>
+          </div>
+          <div class="column">
+            <h2>Task 3 JS</h2>
+            <p> Adding JavaScrip elements to the HTML page.</p>
+          </div>
+</body>
+</html>

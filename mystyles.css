@@ -1,0 +1,16 @@
+body {
+  background-color: dodgerblue;
+}
+
+p {
+  color: white;
+}
+a {
+  color: purple;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
